@@ -6,3 +6,6 @@ oh my zsh 			https://github.com/ohmyzsh/ohmyzsh
 kubectx/kubens		https://github.com/ahmetb/kubectx
 fzf					https://github.com/junegunn/fzf
 curlie				https://github.com/rs/curlie
+ncdu                apt-get install ncdu
+htop                apt-get install htop
+tree                apt-get install tree

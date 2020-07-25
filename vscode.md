@@ -10,6 +10,7 @@ docker
 dotenv
 draw.io
 eslint
+tslint
 git graph
 git blame
 image resizer - from menu
@@ -18,6 +19,8 @@ live server
 markdown preview enhanced
 multiline tricks
 vscode-pdf
+rest client
+remote - wsl
 
 # Languages
 C/C++
