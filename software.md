@@ -1,0 +1,1 @@
+insync	https://www.insynchq.com/
