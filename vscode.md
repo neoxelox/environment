@@ -21,6 +21,8 @@
 - vscode-pdf
 - rest client
 - remote - wsl
+- live share
+- polacode
 
 # Languages
 - C/C++
