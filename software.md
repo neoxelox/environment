@@ -1,1 +1,1 @@
-insync	https://www.insynchq.com/
+- insync	https://www.insynchq.com/

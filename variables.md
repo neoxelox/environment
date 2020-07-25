@@ -1,3 +1,4 @@
+```sh
 # ZSH
 export ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="robbyrussell" # or "bira"
@@ -21,3 +22,4 @@ export PATH=$PATH:/snap/bin
 
 # ALIASES
 alias gtree='git log --graph --abbrev-commit --decorate --date=relative --format=format:'\''%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)'\'' --all'
+```

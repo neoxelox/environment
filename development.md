@@ -1,10 +1,10 @@
-docker 			https://docs.docker.com/get-docker/
-docker-compose 	https://docs.docker.com/compose/install/
-poetry          https://python-poetry.org/docs/
-go              https://golang.org/dl/
-node            https://nodejs.org/es/download/
-npm             https://www.npmjs.com/get-npm
-k3s 			https://k3s.io/
-vscode			https://code.visualstudio.com/
-dockstation		https://dockstation.io/
-pgadmin4		https://www.pgadmin.org/download/
+- docker 			https://docs.docker.com/get-docker/
+- docker-compose 	https://docs.docker.com/compose/install/
+- poetry          	https://python-poetry.org/docs/
+- go              	https://golang.org/dl/
+- node            	https://nodejs.org/es/download/
+- npm             	https://www.npmjs.com/get-npm
+- k3s 				https://k3s.io/
+- vscode			https://code.visualstudio.com/
+- dockstation		https://dockstation.io/
+- pgadmin4			https://www.pgadmin.org/download/
