@@ -36,5 +36,6 @@
 ```json
 "window.zoomLevel": 0,
 "workbench.editor.enablePreview": false,
-"editor.minimap.enabled": false    
+"editor.minimap.enabled": false,
+"peacock.showColorInStatusBar": false
 ```
