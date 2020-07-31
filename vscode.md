@@ -26,6 +26,7 @@
 
 # Languages
 - C/C++
+- JS
 - TOML
 - YAML
 - GO & RECOMMENDED

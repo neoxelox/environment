@@ -1,3 +1,4 @@
+- git				https://git-scm.com/
 - docker 			https://docs.docker.com/get-docker/
 - docker-compose 	https://docs.docker.com/compose/install/
 - poetry          	https://python-poetry.org/docs/
