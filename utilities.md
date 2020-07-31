@@ -1,1 +1,1 @@
-- vectorizer	https://www.vectorizer.io/
+- vectorizer	https://www.vectorizer.io
