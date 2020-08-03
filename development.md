@@ -1,6 +1,8 @@
 - git				https://git-scm.com/
 - docker 			https://docs.docker.com/get-docker/
 - docker-compose 	https://docs.docker.com/compose/install/
+- python			https://www.python.org/
+- pyenv				https://github.com/pyenv/pyenv
 - poetry          	https://python-poetry.org/docs/
 - go              	https://golang.org/dl/
 - node            	https://nodejs.org/es/download/
