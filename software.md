@@ -2,3 +2,4 @@
 - datagrip	https://www.jetbrains.com/es-es/datagrip/
 - peek		https://github.com/phw/peek
 - ngrok		https://ngrok.com/
+- figma		https://www.figma.com/downloads/
