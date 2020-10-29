@@ -11,3 +11,4 @@
 - tree                	apt-get install tree
 - dive					https://github.com/wagoodman/dive
 - k9s					https://github.com/derailed/k9s
+- exa					https://github.com/ogham/exa
