@@ -6,6 +6,7 @@
 - kubectx/kubens		https://github.com/ahmetb/kubectx
 - fzf					https://github.com/junegunn/fzf
 - curlie				https://github.com/rs/curlie
+- croc					https://github.com/schollz/croc
 - ncdu                	apt-get install ncdu
 - htop               	apt-get install htop
 - tree                	apt-get install tree
