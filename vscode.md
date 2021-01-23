@@ -55,7 +55,8 @@
     "editor.suggestSelection": "first",
     "editor.formatOnSave": true,
     "editor.codeActionsOnSave": {
-        "source.fixAll.eslint": true
+        "source.fixAll.eslint": true,
+        "source.organizeImports": true
     },
     "diffEditor.renderSideBySide": true,
     "window.zoomLevel": 0,
@@ -80,6 +81,7 @@
     "python.analysis.autoImportCompletions": false,
     "python.analysis.memory.keepLibraryAst": true,
     "python.formatting.provider": "black",
+    "python.formatting.blackArgs": ["--line-length=120"],
     "python.linting.mypyEnabled": true,
     "go.formatTool": "goimports",
     "go.autocompleteUnimportedPackages": true,
