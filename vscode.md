@@ -26,6 +26,7 @@
 - polacode
 - prettier
 - pylance
+- deno
 - remote - wsl
 - remote - containers
 - remote - ssh

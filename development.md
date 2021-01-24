@@ -7,6 +7,8 @@
 - go              	https://golang.org/dl/
 - node            	https://nodejs.org/es/download/
 - npm             	https://www.npmjs.com/get-npm
+- yarn              https://classic.yarnpkg.com/en/docs/install/#debian-stable
+- deno              https://deno.land/#installation
 - k3s 				https://k3s.io/
 - vscode			https://code.visualstudio.com/
 - dockstation		https://dockstation.io/
