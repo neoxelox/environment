@@ -88,6 +88,8 @@
     "go.autocompleteUnimportedPackages": true,
     "go.lintTool": "golangci-lint",
     "go.useLanguageServer": true,
-    "go.useCodeSnippetsOnFunctionSuggest": true
+    "go.useCodeSnippetsOnFunctionSuggest": true,
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorSmoothCaretAnimation": true
 }
 ```
