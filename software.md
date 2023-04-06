@@ -3,3 +3,4 @@
 - peek		https://github.com/phw/peek
 - ngrok		https://ngrok.com/
 - figma		https://www.figma.com/downloads/
+- obsidian	https://obsidian.md/

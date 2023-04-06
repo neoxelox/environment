@@ -1,1 +1,3 @@
-- vectorizer	https://www.vectorizer.io
+- vectorizer (paid)	 https://www.vectorizer.io
+- vectorizer (free)  https://svgco.de/
+- image enhancer     https://letsenhance.io/

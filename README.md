@@ -1,2 +1,3 @@
 # resources
-A collection of knowledge, useful, interesting, config files.
+
+A collection of knowledge, useful and interesting config files.
