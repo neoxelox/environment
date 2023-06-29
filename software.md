@@ -4,3 +4,5 @@
 - ngrok		https://ngrok.com/
 - figma		https://www.figma.com/downloads/
 - obsidian	https://obsidian.md/
+- kicad     https://www.kicad.org/
+- onshape   https://www.onshape.com/

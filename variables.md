@@ -7,7 +7,7 @@ export PATH="$PATH:/usr/local/go/bin"
 export GOPATH="$HOME/go"
 
 # PYTHON
-export PATH="$PATH:$HOME/.local/bin"
+export PATH="$PATH:$HOME/.local/share/pypoetry/venv/bin"
 
 # BINS
 export PATH="$PATH:/snap/bin"
