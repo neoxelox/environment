@@ -1,15 +1,14 @@
-- micro			  https://github.com/zyedidia/micro
-- xclip			  apt-get install xclip
-- bat			  https://github.com/sharkdp/bat
-- zsh			  https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH
-- oh my zsh 	  https://github.com/ohmyzsh/ohmyzsh
-- ctop			  https://github.com/bcicen/ctop
-- kubectx/kubens  https://github.com/ahmetb/kubectx
-- fzf			  https://github.com/junegunn/fzf
-- curlie		  https://github.com/rs/curlie
-- croc			  https://github.com/schollz/croc
-- ncdu            apt-get install ncdu
-- htop            apt-get install htop
-- tree            apt-get install tree
-- dive			  https://github.com/wagoodman/dive
-- exa			  https://github.com/ogham/exa
+- micro			      https://github.com/zyedidia/micro | brew install micro
+- bat			        https://github.com/sharkdp/bat | brew install bat
+- zsh			        https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH
+- oh my zsh 	    https://github.com/ohmyzsh/ohmyzsh
+- ctop			      https://github.com/bcicen/ctop | brew install ctop
+- kubectx/kubens  https://github.com/ahmetb/kubectx | brew install kubectx
+- fzf			        https://github.com/junegunn/fzf | brew install fzf
+- curlie		      https://github.com/rs/curlie | brew install curlie
+- croc			      https://github.com/schollz/croc | brew install croc
+- ncdu            apt-get install ncdu | brew install ncdu
+- htop            apt-get install htop | brew install htop
+- tree            apt-get install tree | brew install tree
+- dive			      https://github.com/wagoodman/dive | brew install dive
+- exa			        https://github.com/ogham/exa | brew install exa
