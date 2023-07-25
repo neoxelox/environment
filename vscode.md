@@ -6,13 +6,13 @@
 # Extensions
 
 - Better C++ Syntax - Jeff Hykin
-- Better TOML - Bungcip
+- Even Better TOML - Tamasfe
 - C/C++ - Microsoft
 - CMake - Twxs
 - CMake Tools - Microsoft
 - Dev Containers - Microsoft
 - Docker - Microsoft
-- DotENV - Mikestead
+- Dotenv Official +Vault - Dotenv
 - ESLint - Microsoft
 - Espressif IDF - Espressif Systems
 - Git Blame - Wade Anderson
@@ -23,7 +23,7 @@
 - Makefile Tools - Microsoft
 - Markdown Preview Enhanced - Yiyi Wang
 - Peacock - John Papa
-- Polacoda - P & P
+- Polacode - P & P
 - PostCSS Language Support - Csstools
 - Prettier - Prettier
 - Pylance - Microsoft
