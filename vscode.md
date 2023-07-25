@@ -50,7 +50,7 @@
   "workbench.colorTheme": "Default Dark+ Experimental",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.editor.enablePreview": false,
-  "editor.fontFamily": "'Cascadia Code', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+  "editor.fontFamily": "'Cascadia Code', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'", // "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
   "editor.fontSize": 16,
   "editor.minimap.enabled": false,
   "editor.suggestSelection": "first",
@@ -110,6 +110,7 @@
   "python.languageServer": "Pylance",
   "python.analysis.autoImportCompletions": false,
   "python.analysis.memory.keepLibraryAst": true,
+  "python.analysis.typeCheckingMode": "strict"
   "python.formatting.provider": "black",
   "python.formatting.blackArgs": ["--line-length=120"],
   "python.linting.mypyEnabled": true,
