@@ -45,6 +45,8 @@
 
 # Configuration (CTRL+SHIFT+P "Preferences: Open Settings (JSON)")
 
+> Espressif IDF extension configuration is generated automatically and depends on the system
+
 ```json
 {
   "[css]": {
@@ -119,15 +121,6 @@
   "go.lintTool": "golangci-lint",
   "go.toolsManagement.autoUpdate": true,
   "go.useLanguageServer": true,
-  "idf.customExtraPaths": "/Users/alex/.espressif/tools/xtensa-esp-elf-gdb/12.1_20221002/xtensa-esp-elf-gdb/bin:/Users/alex/.espressif/tools/riscv32-esp-elf-gdb/12.1_20221002/riscv32-esp-elf-gdb/bin:/Users/alex/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin:/Users/alex/.espressif/tools/xtensa-esp32s2-elf/esp-12.2.0_20230208/xtensa-esp32s2-elf/bin:/Users/alex/.espressif/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin:/Users/alex/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin:/Users/alex/.espressif/tools/esp32ulp-elf/2.35_20220830/esp32ulp-elf/bin:/Users/alex/.espressif/tools/openocd-esp32/v0.12.0-esp32-20230419/openocd-esp32/bin:/Users/alex/.espressif/tools/esp-rom-elfs/20230320",
-  "idf.customExtraVars": {
-    "ESP_ROM_ELF_DIR": "/Users/alex/.espressif/tools/esp-rom-elfs/20230320/",
-    "OPENOCD_SCRIPTS": "/Users/alex/.espressif/tools/openocd-esp32/v0.12.0-esp32-20230419/openocd-esp32/share/openocd/scripts"
-  },
-  "idf.espIdfPath": "/Users/alex/Esp/esp-idf",
-  "idf.gitPath": "/usr/bin/git",
-  "idf.pythonBinPath": "/Users/alex/.espressif/python_env/idf5.1_py3.11_env/bin/python",
-  "idf.toolsPath": "/Users/alex/.espressif",
   "liveServer.settings.donotShowInfoMsg": true,
   "peacock.showColorInStatusBar": false,
   "prettier.endOfLine": "auto",
