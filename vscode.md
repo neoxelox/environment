@@ -1,6 +1,6 @@
 # Themes
 
-- Default Dark+ Experimental - Built In
+- Default Dark Modern - Built In
 - Material Icon Theme - Philipp Kief
 
 # Extensions
@@ -21,7 +21,7 @@
 - Live Sass Compiler - Glenn Marks
 - Live Server - Ritwick Dey
 - Makefile Tools - Microsoft
-- Markdown Preview Enhanced - Yiyi Wang
+- GitHub Markdown Preview (Extension Pack) - Matt Bierner
 - Peacock - John Papa
 - Polacode - P & P
 - PostCSS Language Support - Csstools
@@ -47,46 +47,35 @@
 
 ```json
 {
-  "workbench.colorTheme": "Default Dark+ Experimental",
-  "workbench.iconTheme": "material-icon-theme",
-  "workbench.editor.enablePreview": false,
-  "editor.fontFamily": "'Cascadia Code', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'", // "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
-  "editor.fontSize": 16,
-  "editor.minimap.enabled": false,
-  "editor.suggestSelection": "first",
-  "editor.inlineSuggest.enabled": true,
-  "editor.quickSuggestions": {
-    "strings": true
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "editor.formatOnSave": true,
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true,
-    "source.fixAll.stylelint": true,
-    "source.organizeImports": true
+  "[dockercompose]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "editor.cursorBlinking": "smooth",
-  "editor.cursorSmoothCaretAnimation": "on",
-  "editor.bracketPairColorization.enabled": true,
-  "editor.guides.bracketPairs": "active",
-  "diffEditor.renderSideBySide": true,
-  "window.zoomLevel": 0,
-  "peacock.showColorInStatusBar": false,
-  "liveServer.settings.donotShowInfoMsg": true,
-  "sql-formatter.uppercase": true,
-  "eslint.alwaysShowStatus": true,
-  "eslint.format.enable": true,
-  "prettier.printWidth": 120,
+  "[go]": {
+    "editor.defaultFormatter": "golang.go"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "[typescript]": {
+  "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "[html]": {
-    "editor.defaultFormatter": "vscode.html-language-features"
-  },
-  "[css]": {
+  "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonl]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
   },
   "[scss]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -94,32 +83,83 @@
   "[svelte]": {
     "editor.defaultFormatter": "svelte.svelte-vscode"
   },
-  "[dockercompose]": {
-    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
-  },
-  "[markdown]": {
+  "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[yaml]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "diffEditor.renderSideBySide": true,
+  "dotenv.enableAutocloaking": false,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "source.organizeImports": true
   },
-  "scss.lint.unknownAtRules": "ignore",
-  "python.languageServer": "Pylance",
-  "python.analysis.autoImportCompletions": false,
-  "python.analysis.memory.keepLibraryAst": true,
-  "python.analysis.typeCheckingMode": "strict"
-  "python.formatting.provider": "black",
-  "python.formatting.blackArgs": ["--line-length=120"],
-  "python.linting.mypyEnabled": true,
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontSize": 14,
+  "editor.formatOnSave": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.guides.bracketPairsHorizontal": "active",
+  "editor.guides.highlightActiveBracketPair": true,
+  "editor.guides.highlightActiveIndentation": true,
+  "editor.guides.indentation": true,
+  "editor.inlineSuggest.enabled": true,
+  "editor.minimap.enabled": false,
+  "editor.quickSuggestions": {
+    "comments": "on",
+    "other": "on",
+    "strings": "on"
+  },
+  "editor.suggestSelection": "first",
+  "eslint.format.enable": true,
   "go.formatTool": "goimports",
-  "go.autocompleteUnimportedPackages": true,
   "go.lintTool": "golangci-lint",
-  "go.useLanguageServer": true,
-  "go.useCodeSnippetsOnFunctionSuggest": true,
   "go.toolsManagement.autoUpdate": true,
-  "svelte.enable-ts-plugin": true
+  "go.useLanguageServer": true,
+  "idf.customExtraPaths": "/Users/alex/.espressif/tools/xtensa-esp-elf-gdb/12.1_20221002/xtensa-esp-elf-gdb/bin:/Users/alex/.espressif/tools/riscv32-esp-elf-gdb/12.1_20221002/riscv32-esp-elf-gdb/bin:/Users/alex/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin:/Users/alex/.espressif/tools/xtensa-esp32s2-elf/esp-12.2.0_20230208/xtensa-esp32s2-elf/bin:/Users/alex/.espressif/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin:/Users/alex/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin:/Users/alex/.espressif/tools/esp32ulp-elf/2.35_20220830/esp32ulp-elf/bin:/Users/alex/.espressif/tools/openocd-esp32/v0.12.0-esp32-20230419/openocd-esp32/bin:/Users/alex/.espressif/tools/esp-rom-elfs/20230320",
+  "idf.customExtraVars": {
+    "ESP_ROM_ELF_DIR": "/Users/alex/.espressif/tools/esp-rom-elfs/20230320/",
+    "OPENOCD_SCRIPTS": "/Users/alex/.espressif/tools/openocd-esp32/v0.12.0-esp32-20230419/openocd-esp32/share/openocd/scripts"
+  },
+  "idf.espIdfPath": "/Users/alex/Esp/esp-idf",
+  "idf.gitPath": "/usr/bin/git",
+  "idf.pythonBinPath": "/Users/alex/.espressif/python_env/idf5.1_py3.11_env/bin/python",
+  "idf.toolsPath": "/Users/alex/.espressif",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "peacock.showColorInStatusBar": false,
+  "prettier.endOfLine": "auto",
+  "prettier.printWidth": 120,
+  "prettier.semi": true,
+  "prettier.singleQuote": false,
+  "prettier.tabWidth": 2,
+  "prettier.trailingComma": "all",
+  "prettier.useTabs": false,
+  "python.analysis.autoImportCompletions": false,
+  "python.analysis.typeCheckingMode": "strict",
+  "python.formatting.blackArgs": ["--line-length=120"],
+  "python.languageServer": "Pylance",
+  "python.linting.flake8Args": ["--max-line-length=120"],
+  "python.linting.flake8Enabled": true,
+  "python.linting.mypyEnabled": true,
+  "redhat.telemetry.enabled": false,
+  "scss.lint.unknownAtRules": "ignore",
+  "sql-formatter.dialect": "sql",
+  "sql-formatter.linesBetweenQueries": 1,
+  "sql-formatter.uppercase": true,
+  "svelte.enable-ts-plugin": true,
+  "tailwindCSS.experimental.configFile": {
+    ".tailwindrc.cjs": "**/*",
+    "tailwind.config.cjs": "**/*",
+    "tailwind.config.js": "**/*",
+    "tailwind.config.ts": "**/*"
+  },
+  "window.zoomLevel": 0,
+  "workbench.colorTheme": "Default Dark Modern",
+  "workbench.editor.enablePreview": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.startupEditor": "none"
 }
 ```
