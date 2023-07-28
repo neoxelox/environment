@@ -36,6 +36,8 @@
 - Svelte for VSCode - Svelte
 - Tailwind CSS IntelliSense - Tailwind Labs
 - Thunder Client - Ranga Vadhineni
+- SQLTools - Matheus Teixeira
+- SQLTools PostgreSQL/Cockroach Driver - Matheus Teixeira
 - Vscode-PDF - Tomoki1207
 - YAML - Red Hat
 
