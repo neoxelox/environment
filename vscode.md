@@ -126,7 +126,6 @@
     "typescriptreact",
     "html",
     "vue",
-    "markdown",
     "svelte"
   ],
   "go.formatTool": "goimports",
