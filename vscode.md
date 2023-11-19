@@ -119,6 +119,16 @@
   },
   "editor.suggestSelection": "first",
   "eslint.format.enable": true,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "html",
+    "vue",
+    "markdown",
+    "svelte"
+  ],
   "go.formatTool": "goimports",
   "go.lintTool": "golangci-lint",
   "go.toolsManagement.autoUpdate": true,
