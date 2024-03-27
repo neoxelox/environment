@@ -21,6 +21,7 @@
 - Live Sass Compiler - Glenn Marks
 - Live Server - Ritwick Dey
 - Makefile Tools - Microsoft
+- Mypy Type Checker - Microsoft
 - GitHub Markdown Preview (Extension Pack) - Matt Bierner
 - Peacock - John Papa
 - Polacode - P & P
@@ -28,9 +29,11 @@
 - Prettier - Prettier
 - Pylance - Microsoft
 - Python - Microsoft
+- Python Debugger - Microsoft
 - Remote - SSH - Microsoft
 - Remote - SSH: Editing Configuration Files - Microsoft
 - Remote Explorer - Microsoft
+- Ruff - Astral Software
 - SQL Formatter - Adpyke
 - Stylelint - Stylelint
 - Svelte for VSCode - Svelte
@@ -79,9 +82,12 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[python]": {
-    "editor.defaultFormatter": "ms-python.black-formatter"
+    "editor.defaultFormatter": "charliermarsh.ruff"
   },
   "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[postcss]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[svelte]": {
@@ -97,8 +103,8 @@
   "dotenv.enableAutocloaking": false,
   "editor.bracketPairColorization.enabled": true,
   "editor.codeActionsOnSave": {
-    "source.fixAll": true,
-    "source.organizeImports": true
+    "source.fixAll": "explicit",
+    "source.organizeImports": "explicit"
   },
   "editor.cursorBlinking": "smooth",
   "editor.cursorSmoothCaretAnimation": "on",
@@ -143,11 +149,12 @@
   "prettier.useTabs": false,
   "python.analysis.autoImportCompletions": false,
   "python.analysis.typeCheckingMode": "strict",
-  "python.formatting.blackArgs": ["--line-length=120"],
   "python.languageServer": "Pylance",
-  "python.linting.flake8Args": ["--max-line-length=120"],
-  "python.linting.flake8Enabled": true,
-  "python.linting.mypyEnabled": true,
+  "ruff.fixAll": true,
+  "ruff.enable": true,
+  "ruff.format.args": ["--line-length=120"],
+  "ruff.lint.args": ["--line-length=120"],
+  "jupyter.askForKernelRestart": false,
   "redhat.telemetry.enabled": false,
   "scss.lint.unknownAtRules": "ignore",
   "sql-formatter.dialect": "sql",
@@ -160,6 +167,8 @@
     "tailwind.config.js": "**/*",
     "tailwind.config.ts": "**/*"
   },
+  "liveSassCompile.settings.showOutputWindowOn": "Error",
+  "cmake.showOptionsMovedNotification": false,
   "window.zoomLevel": 0,
   "workbench.colorTheme": "Default Dark Modern",
   "workbench.editor.enablePreview": false,
