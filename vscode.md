@@ -13,6 +13,7 @@
 - Dev Containers - Microsoft
 - Docker - Microsoft
 - Dotenv Official +Vault - Dotenv
+- EditorConfig for VS Code- EditorConfig
 - ESLint - Microsoft
 - Espressif IDF - Espressif Systems
 - Git Blame - Wade Anderson
