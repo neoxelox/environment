@@ -1,3 +1,3 @@
-# resources
+# environment
 
-A collection of knowledge, useful and interesting config files.
+My environment setup.

@@ -6,7 +6,6 @@
 # Extensions
 
 - Better C++ Syntax - Jeff Hykin
-- Even Better TOML - Tamasfe
 - C/C++ - Microsoft
 - CMake - Twxs
 - CMake Tools - Microsoft
@@ -16,14 +15,16 @@
 - EditorConfig for VS Code- EditorConfig
 - ESLint - Microsoft
 - Espressif IDF - Espressif Systems
+- Even Better TOML - Tamasfe
 - Git Blame - Wade Anderson
 - Git Graph - Mhutchie
 - Go - Go Team at Google
+- Jupyter (Extension Pack) - Microsoft
 - Live Sass Compiler - Glenn Marks
 - Live Server - Ritwick Dey
 - Makefile Tools - Microsoft
-- Mypy Type Checker - Microsoft
 - GitHub Markdown Preview (Extension Pack) - Matt Bierner
+- Mypy Type Checker - Microsoft
 - Peacock - John Papa
 - Polacode - P & P
 - PostCSS Language Support - Csstools
@@ -40,8 +41,6 @@
 - Svelte for VSCode - Svelte
 - Tailwind CSS IntelliSense - Tailwind Labs
 - Thunder Client - Ranga Vadhineni
-- SQLTools - Matheus Teixeira
-- SQLTools PostgreSQL/Cockroach Driver - Matheus Teixeira
 - Vscode-PDF - Tomoki1207
 - YAML - Red Hat
 
@@ -126,15 +125,7 @@
   },
   "editor.suggestSelection": "first",
   "eslint.format.enable": true,
-  "eslint.validate": [
-    "javascript",
-    "javascriptreact",
-    "typescript",
-    "typescriptreact",
-    "html",
-    "vue",
-    "svelte"
-  ],
+  "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact", "html", "vue", "svelte"],
   "go.formatTool": "goimports",
   "go.lintTool": "golangci-lint",
   "go.toolsManagement.autoUpdate": true,

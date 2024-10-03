@@ -1,5 +1,5 @@
 - insync	https://www.insynchq.com/
-- beekeeper	https://www.beekeeperstudio.io/get-community
+- beekeeper https://www.beekeeperstudio.io/get-community
 - peek		https://github.com/phw/peek/
 - ngrok		https://ngrok.com/
 - figma		https://www.figma.com/downloads/
