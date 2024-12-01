@@ -50,6 +50,7 @@
 
 # Configuration (CTRL+SHIFT+P "Preferences: Open Settings (JSON)")
 
+> This configuration also applies to Cursor
 > Espressif IDF extension configuration is generated automatically and depends on the system
 
 ```json
@@ -166,8 +167,12 @@
   "cmake.showOptionsMovedNotification": false,
   "window.zoomLevel": 0,
   "workbench.colorTheme": "Default Dark Modern",
-  "workbench.editor.enablePreview": false,
   "workbench.iconTheme": "material-icon-theme",
-  "workbench.startupEditor": "none"
+  "workbench.editor.enablePreview": false,
+  "workbench.startupEditor": "none",
+  "cursor.cpp.enablePartialAccepts": true,
+  "cursor.general.gitGraphIndexing": "enabled",
+  "cursor.diffs.useCharacterLevelDiffs": true,
+  "cursor.terminal.usePreviewBox": true
 }
 ```
