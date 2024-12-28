@@ -9,7 +9,7 @@
 - croc              https://github.com/schollz/croc | brew install croc
 - ncdu              apt-get install ncdu | brew install ncdu
 - htop              apt-get install htop | brew install htop
+- btop              https://github.com/aristocratos/btop | brew install btop
 - tree              apt-get install tree | brew install tree
 - dive              https://github.com/wagoodman/dive | brew install dive
 - exa               https://github.com/ogham/exa | brew install exa
-- KeepingYouAwake   https://github.com/newmarcel/KeepingYouAwake | brew install --cask keepingyouawake

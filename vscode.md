@@ -24,12 +24,12 @@
 - Live Server - Ritwick Dey
 - Makefile Tools - Microsoft
 - GitHub Markdown Preview (Extension Pack) - Matt Bierner
-- Mypy Type Checker - Microsoft
 - Peacock - John Papa
 - Polacode - P & P
 - PostCSS Language Support - Csstools
 - Prettier - Prettier
 - Pylance - Microsoft
+- Pyright - Microsoft
 - Python - Microsoft
 - Python Debugger - Microsoft
 - Remote - SSH - Microsoft

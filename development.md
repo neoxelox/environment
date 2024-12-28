@@ -2,10 +2,9 @@
 - docker            https://docs.docker.com/get-docker/
 - docker compose    https://docs.docker.com/compose/#installing-compose-v2
 - python            https://www.python.org/
-- poetry            https://python-poetry.org/docs/
+- uv                https://docs.astral.sh/uv/getting-started/installation/
 - go                https://golang.org/dl/
 - node              https://nodejs.org/es/download/
 - npm               https://www.npmjs.com/get-npm
 - yarn              https://classic.yarnpkg.com/en/docs/install/#debian-stable
-- vscode            https://code.visualstudio.com/
-- cursor            https://www.cursor.com/
+- pnpm              https://pnpm.io/installation
