@@ -120,6 +120,7 @@
   "editor.guides.highlightActiveBracketPair": true,
   "editor.guides.highlightActiveIndentation": true,
   "editor.guides.indentation": true,
+  "editor.tokenColorCustomizations": { "textMateRules": [] },
   "editor.inlineSuggest.enabled": true,
   "editor.minimap.enabled": false,
   "editor.quickSuggestions": {
@@ -148,8 +149,7 @@
   "python.languageServer": "Pylance",
   "ruff.fixAll": true,
   "ruff.enable": true,
-  "ruff.format.args": ["--line-length=120"],
-  "ruff.lint.args": ["--line-length=120"],
+  "ruff.lineLength": 120,
   "jupyter.askForKernelRestart": false,
   "redhat.telemetry.enabled": false,
   "scss.lint.unknownAtRules": "ignore",
@@ -173,6 +173,7 @@
   "cursor.cpp.enablePartialAccepts": true,
   "cursor.general.gitGraphIndexing": "enabled",
   "cursor.diffs.useCharacterLevelDiffs": true,
-  "cursor.terminal.usePreviewBox": true
+  "cursor.terminal.usePreviewBox": true,
+  "cursor.cmdk.useThemedDiffBackground": true
 }
 ```

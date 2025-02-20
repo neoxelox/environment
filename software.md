@@ -10,3 +10,4 @@
 - obsidian	        https://obsidian.md/
 - kicad	            https://www.kicad.org/
 - onshape           https://www.onshape.com/
+- cloudflare warp	https://developers.cloudflare.com/warp-client/get-started/
