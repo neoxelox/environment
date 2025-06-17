@@ -7,10 +7,10 @@
 
 - Better C++ Syntax - Jeff Hykin
 - C/C++ - Microsoft
+- Container Tools - Microsoft
 - CMake - Twxs
 - CMake Tools - Microsoft
 - Dev Containers - Microsoft
-- Docker - Microsoft
 - Dotenv Official +Vault - Dotenv
 - EditorConfig for VS Code- EditorConfig
 - ESLint - Microsoft

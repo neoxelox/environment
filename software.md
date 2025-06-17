@@ -1,4 +1,5 @@
 - KeepingYouAwake   https://github.com/newmarcel/KeepingYouAwake
+- Stats             https://github.com/exelban/stats
 - vscode            https://code.visualstudio.com/
 - cursor            https://www.cursor.com/
 - ghostty           https://ghostty.org/docs/install/binary
