@@ -3,6 +3,7 @@
 - vscode            https://code.visualstudio.com/
 - cursor            https://www.cursor.com/
 - ghostty           https://ghostty.org/docs/install/binary
+- cap               https://cap.so/
 - insync	        https://www.insynchq.com/
 - beekeeper         https://www.beekeeperstudio.io/get-community
 - peek	            https://github.com/phw/peek/
