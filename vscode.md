@@ -55,125 +55,153 @@
 
 ```json
 {
-  "[css]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[dockercompose]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[go]": {
-    "editor.defaultFormatter": "golang.go"
-  },
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[jsonl]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[markdown]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[python]": {
-    "editor.defaultFormatter": "charliermarsh.ruff"
-  },
-  "[scss]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[postcss]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[svelte]": {
-    "editor.defaultFormatter": "svelte.svelte-vscode"
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[yaml]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "diffEditor.renderSideBySide": true,
-  "dotenv.enableAutocloaking": false,
-  "editor.bracketPairColorization.enabled": true,
-  "editor.codeActionsOnSave": {
-    "source.fixAll": "explicit",
-    "source.organizeImports": "explicit"
-  },
-  "editor.cursorBlinking": "smooth",
-  "editor.cursorSmoothCaretAnimation": "on",
-  "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
-  "editor.fontSize": 14,
-  "editor.formatOnSave": true,
-  "editor.guides.bracketPairs": "active",
-  "editor.guides.bracketPairsHorizontal": "active",
-  "editor.guides.highlightActiveBracketPair": true,
-  "editor.guides.highlightActiveIndentation": true,
-  "editor.guides.indentation": true,
-  "editor.tokenColorCustomizations": { "textMateRules": [] },
-  "editor.inlineSuggest.enabled": true,
-  "editor.minimap.enabled": false,
-  "editor.quickSuggestions": {
-    "comments": "on",
-    "other": "on",
-    "strings": "on"
-  },
-  "editor.suggestSelection": "first",
-  "eslint.format.enable": true,
-  "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact", "html", "vue", "svelte"],
-  "go.formatTool": "goimports",
-  "go.lintTool": "golangci-lint",
-  "go.toolsManagement.autoUpdate": true,
-  "go.useLanguageServer": true,
-  "liveServer.settings.donotShowInfoMsg": true,
-  "peacock.showColorInStatusBar": false,
-  "prettier.endOfLine": "auto",
-  "prettier.printWidth": 120,
-  "prettier.semi": true,
-  "prettier.singleQuote": false,
-  "prettier.tabWidth": 2,
-  "prettier.trailingComma": "all",
-  "prettier.useTabs": false,
-  "python.analysis.autoImportCompletions": false,
-  "python.analysis.typeCheckingMode": "strict",
-  "python.languageServer": "Pylance",
-  "ruff.fixAll": true,
-  "ruff.enable": true,
-  "ruff.lineLength": 120,
-  "jupyter.askForKernelRestart": false,
-  "redhat.telemetry.enabled": false,
-  "scss.lint.unknownAtRules": "ignore",
-  "sql-formatter.dialect": "sql",
-  "sql-formatter.linesBetweenQueries": 1,
-  "sql-formatter.uppercase": true,
-  "svelte.enable-ts-plugin": true,
-  "tailwindCSS.experimental.configFile": {
-    ".tailwindrc.cjs": "**/*",
-    "tailwind.config.cjs": "**/*",
-    "tailwind.config.js": "**/*",
-    "tailwind.config.ts": "**/*"
-  },
-  "liveSassCompile.settings.showOutputWindowOn": "Error",
-  "cmake.showOptionsMovedNotification": false,
-  "window.zoomLevel": 0,
-  "workbench.colorTheme": "Default Dark Modern",
-  "workbench.iconTheme": "material-icon-theme",
-  "workbench.editor.enablePreview": false,
-  "workbench.startupEditor": "none",
-  "cursor.cpp.enablePartialAccepts": true,
-  "cursor.general.gitGraphIndexing": "enabled",
-  "cursor.diffs.useCharacterLevelDiffs": true,
-  "cursor.terminal.usePreviewBox": true,
-  "cursor.cmdk.useThemedDiffBackground": true
+	"editor.defaultFormatter": "biomejs.biome",
+	"[css]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[dockercompose]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[go]": {
+		"editor.defaultFormatter": "golang.go"
+	},
+	"[html]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[xml]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[json]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[jsonc]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[jsonl]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[markdown]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[python]": {
+		"editor.defaultFormatter": "charliermarsh.ruff"
+	},
+	"[scss]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[postcss]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[svelte]": {
+		"editor.defaultFormatter": "svelte.svelte-vscode"
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[yaml]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[github-actions-workflow]": {
+		"editor.defaultFormatter": "redhat.vscode-yaml"
+	},
+	"diffEditor.renderSideBySide": true,
+	"diffEditor.ignoreTrimWhitespace": false,
+	"dotenv.enableAutocloaking": false,
+	"editor.bracketPairColorization.enabled": true,
+	"editor.codeActionsOnSave": {
+		"source.fixAll": "explicit",
+		"source.organizeImports": "explicit"
+	},
+	"editor.cursorBlinking": "smooth",
+	"editor.cursorSmoothCaretAnimation": "on",
+	"editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
+	"editor.fontSize": 14,
+	"editor.formatOnSave": true,
+	"editor.guides.bracketPairs": "active",
+	"editor.guides.bracketPairsHorizontal": "active",
+	"editor.guides.highlightActiveBracketPair": true,
+	"editor.guides.highlightActiveIndentation": true,
+	"editor.guides.indentation": true,
+	"editor.tokenColorCustomizations": {
+		"textMateRules": []
+	},
+	"editor.inlineSuggest.enabled": true,
+	"editor.minimap.enabled": false,
+	"editor.quickSuggestions": {
+		"comments": "on",
+		"other": "on",
+		"strings": "on"
+	},
+	"editor.suggestSelection": "first",
+	"eslint.format.enable": true,
+	"eslint.validate": [
+		"javascript",
+		"javascriptreact",
+		"typescript",
+		"typescriptreact",
+		"html",
+		"vue",
+		"svelte"
+	],
+	"go.formatTool": "goimports",
+	"go.lintTool": "golangci-lint",
+	"go.toolsManagement.autoUpdate": true,
+	"go.useLanguageServer": true,
+	"liveServer.settings.donotShowInfoMsg": true,
+	"peacock.showColorInStatusBar": false,
+	"prettier.endOfLine": "auto",
+	"prettier.printWidth": 120,
+	"prettier.semi": true,
+	"prettier.singleQuote": false,
+	"prettier.tabWidth": 2,
+	"prettier.trailingComma": "all",
+	"prettier.useTabs": false,
+	"python.analysis.autoImportCompletions": false,
+	"python.analysis.typeCheckingMode": "strict",
+	"python.languageServer": "None",
+	"ruff.fixAll": true,
+	"ruff.enable": true,
+	"ruff.lineLength": 120,
+	"jupyter.askForKernelRestart": false,
+	"redhat.telemetry.enabled": false,
+	"scss.lint.unknownAtRules": "ignore",
+	"sql-formatter.dialect": "sql",
+	"sql-formatter.linesBetweenQueries": 1,
+	"sql-formatter.uppercase": true,
+	"svelte.enable-ts-plugin": true,
+	"tailwindCSS.experimental.configFile": {
+		".tailwindrc.cjs": "**/*",
+		"tailwind.config.cjs": "**/*",
+		"tailwind.config.js": "**/*",
+		"tailwind.config.ts": "**/*"
+	},
+	"liveSassCompile.settings.showOutputWindowOn": "Error",
+	"cmake.showOptionsMovedNotification": false,
+	"window.zoomLevel": 0,
+	"workbench.colorTheme": "Default Dark Modern",
+	"workbench.iconTheme": "material-icon-theme",
+	"workbench.editor.enablePreview": false,
+	"workbench.startupEditor": "none",
+	"files.associations": {
+		".env*": "dotenv"
+	},
+	"git.autofetch": true,
+	"cursor.cpp.enablePartialAccepts": true,
+	"cursor.general.gitGraphIndexing": "enabled",
+	"cursor.diffs.useCharacterLevelDiffs": true,
+	"cursor.terminal.usePreviewBox": true,
+	"cursor.cmdk.useThemedDiffBackground": true,
+	"cursor.composer.shouldChimeAfterChatFinishes": true,
+	"cursor.composer.shouldAllowCustomModes": true,
+	"cursor.cpp.disabledLanguages": [],
+	"cursor.composer.usageSummaryDisplay": "always",
+	"cursorpyright.analysis.autoImportCompletions": false,
+	"cursorpyright.analysis.typeCheckingMode": "strict"
 }
 ```
